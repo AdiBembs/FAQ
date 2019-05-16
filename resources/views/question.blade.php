@@ -28,7 +28,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header"><a class="btn btn-primary float-left"
-                                                href="#">
+                                                href="{{ route('answers.create', ['question_id'=> $question->id])}}">
                             Answer Question
                         </a></div>
 
@@ -39,7 +39,7 @@
                                 <div class="card-footer">
 
                                     <a class="btn btn-primary float-right"
-                                       href="{{ route('answer.show', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
+                                       href="{{ route('answers.show', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
                                         View
                                     </a>
 
