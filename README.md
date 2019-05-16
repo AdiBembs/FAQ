@@ -10,4 +10,5 @@ Epic:
 
 Explanation: This project is to create a website + Chabot that work with 
 slack and eventually other chat platforms. The idea is to make a virtual 
-teaching assistant that can help manage questions that we may receive. 
+teaching assistant that can help manage questions that we may receive. Our 
+focus was to try and make the program run better by adding some new features.
