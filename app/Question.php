@@ -16,4 +16,9 @@ class Question extends Model
     {
         return $this->hasMany('App\Answer');
     }
+
+    public function likes()
+    {
+        return $this->hasMany("App\Like");
+    }
 }
