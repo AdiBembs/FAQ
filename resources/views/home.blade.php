@@ -32,6 +32,8 @@
                                                     <a class="btn btn-primary float-right" href="{{ route('questions.show', ['id' => $question->id]) }}">
                                                         View
                                                     </a>
+                                                    <a class="like btn btn-success float-left" href="#">like</a>
+                                                    <a class="like btn btn-danger float-left" href="#">dislike</a>
                                                 </p>
                                             </div>
                                         </div>
