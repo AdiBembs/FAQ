@@ -1,14 +1,8 @@
 # FAQ
 Epic: 
-*Generated 50 fake users
-*Added login and register scaffolding
-*Removed name from laravel register section
-*Added answer migration, model, and updated the answer seeder
-*Added web.php sections in routes folder
-*Fixed branding link to correctly direct logged in user to their homepage
-*Added list of questions on homepage and a paper 
-
-Explanation: This project is to create a website + Chabot that work with 
-slack and eventually other chat platforms. The idea is to make a virtual 
-teaching assistant that can help manage questions that we may receive. Our 
-focus was to try and make the program run better by adding some new features.
+User will start out at laravel blade homepage.
+User will then click the home button at the top right
+User will then register
+User will then be able to ask a question
+User will have the option of liking or disliking the question
+User will also be able to view question and edit/delete the question. 
